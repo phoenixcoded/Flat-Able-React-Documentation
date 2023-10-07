@@ -12,8 +12,7 @@ You can use the below explanation to add/remove menu routs and their menu items.
 
 Open `flat-able/src/routse.js` and `flat-able/src/routes.js`You will find the below example code. In below code we have show how you can add new page route.
 
-{% code-tabs %}
-{% code-tabs-item title="router.js" %}
+{% code title="router.js" %}
 ```javascript
 import { lazy } from 'react';
 
@@ -36,15 +35,13 @@ const Route = [
 ]
 export default Route
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ## Add menu item
 
 To add menu items you can use `flat-able/src/menu-items.js` file. Below code we have show how you can use new menu item.
 
-{% code-tabs %}
-{% code-tabs-item title="menus.js" %}
+{% code title="menus.js" %}
 ```javascript
 export default {
     items: [
@@ -156,6 +153,4 @@ export default {
     ]
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
-
+{% endcode %}
